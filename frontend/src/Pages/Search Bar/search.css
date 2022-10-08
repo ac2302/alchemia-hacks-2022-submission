@@ -1,0 +1,34 @@
+.search-container{
+    width: 490px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    left: 500px;
+    
+    /* left:  100px; */
+    top: 140px;
+  }
+  
+  input#search-bar{
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 100%;
+    height: 45px;
+    padding: 0 20px;
+    font-size: 1rem;
+    border: 1px solid #D0CFCE;
+    outline: none;
+   }
+  
+  .search-icon{
+    position: relative;
+    float: right;
+    width: 75px;
+    height: 75px;
+    top: -62px;
+    right: -45px;
+  }
+  
+  
+  
+  

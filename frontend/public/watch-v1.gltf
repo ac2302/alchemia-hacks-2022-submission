@@ -1,0 +1,308 @@
+{
+  "asset": {
+    "generator": "glTF-Transform v1.1.1",
+    "version": "2.0",
+    "extras": {
+      "author": "ar-watches (https://sketchfab.com/ar-watches)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/tag-heuer-monaco-x-gulf-watch-31ba7140fb3146b2af3cbdc13022421c",
+      "title": "Tag Heuer Monaco X GULF Watch"
+    }
+  },
+  "accessors": [
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 3012
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 558
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 558,
+      "max": [
+        163.94126892089844,
+        -173.69137573242188,
+        164.29080200195312
+      ],
+      "min": [
+        -160.1446075439453,
+        -281.1860046386719,
+        -163.639892578125
+      ]
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 558
+    },
+    {
+      "type": "SCALAR",
+      "componentType": 5123,
+      "count": 107766
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 23822
+    },
+    {
+      "type": "VEC3",
+      "componentType": 5126,
+      "count": 23822,
+      "max": [
+        224.4724578857422,
+        274.37890625,
+        382.42071533203125
+      ],
+      "min": [
+        -225.4875030517578,
+        -276.775390625,
+        -381.95111083984375
+      ]
+    },
+    {
+      "type": "VEC4",
+      "componentType": 5126,
+      "count": 23822
+    },
+    {
+      "type": "VEC2",
+      "componentType": 5126,
+      "count": 23822
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 3556
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3556,
+      "byteLength": 184256
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "source": 0,
+      "sampler": 0
+    },
+    {
+      "source": 2,
+      "sampler": 0
+    },
+    {
+      "source": 1,
+      "sampler": 0
+    }
+  ],
+  "images": [
+    {
+      "name": "watch_baseColor",
+      "uri": "watch-v1_img0.png"
+    },
+    {
+      "name": "watch_metallicRoughness",
+      "uri": "watch-v1_img1.png"
+    },
+    {
+      "name": "watch_normal",
+      "uri": "watch-v1_img2.png"
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "watch-v1_data.bin",
+      "byteLength": 187812
+    }
+  ],
+  "materials": [
+    {
+      "name": "glass",
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          0.044271260845508885
+        ],
+        "roughnessFactor": 0
+      },
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatFactor": 0.06859195349883565,
+          "clearcoatRoughnessFactor": 0.056431607172172264
+        }
+      }
+    },
+    {
+      "name": "watch",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 1
+      },
+      "occlusionTexture": {
+        "index": 2
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object005_glass_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 2,
+            "TEXCOORD_0": 3
+          },
+          "mode": 4,
+          "material": 0,
+          "indices": 0,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "NORMAL": 0,
+                "POSITION": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Object006_watch_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 6,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "mode": 4,
+          "material": 1,
+          "indices": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 1,
+              "attributes": {
+                "NORMAL": 0,
+                "POSITION": 1,
+                "TANGENT": 2,
+                "TEXCOORD_0": 3
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Sketchfab_model",
+      "rotation": [
+        -0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "children": [
+        1
+      ]
+    },
+    {
+      "name": "final.fbx",
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "children": [
+        2
+      ]
+    },
+    {
+      "name": "RootNode",
+      "children": [
+        3,
+        5
+      ]
+    },
+    {
+      "name": "Object005",
+      "rotation": [
+        -0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "children": [
+        4
+      ]
+    },
+    {
+      "name": "Object005_glass_0",
+      "mesh": 0
+    },
+    {
+      "name": "Object006",
+      "rotation": [
+        -0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "children": [
+        6
+      ]
+    },
+    {
+      "name": "Object006_watch_0",
+      "mesh": 1
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "KHR_draco_mesh_compression",
+    "KHR_materials_clearcoat"
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ]
+}
